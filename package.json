@@ -1,6 +1,6 @@
 {
-  "name": "obj2gltf",
-  "version": "3.1.2",
+  "name": "@wanyanyan/obj2gltf",
+  "version": "3.1.2a",
   "description": "Convert OBJ model format to glTF",
   "license": "Apache-2.0",
   "contributors": [
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "bluebird": "^3.7.2",
-    "cesium": "^1.83.0",
+    "cesium": "^1.85.0",
     "fs-extra": "^10.0.0",
     "jpeg-js": "^0.4.3",
     "mime": "^2.5.2",

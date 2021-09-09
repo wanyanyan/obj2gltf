@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 "use strict";
-const Cesium = require("cesium");
-const fsExtra = require("fs-extra");
-const path = require("path");
-const yargs = require("yargs");
-const obj2gltf = require("../lib/obj2gltf");
+import fsExtra from "fs-extra";
+import path from "path";
+import yargs from "yargs";
+import obj2gltf from "../lib/obj2gltf";
 
-const defaultValue = Cesium.defaultValue;
-const defined = Cesium.defined;
+import defaultValue from "cesium/Source/Core/defaultValue";
+import defined from "cesium/Source/Core/defined";
 
 const defaults = obj2gltf.defaults;
 
